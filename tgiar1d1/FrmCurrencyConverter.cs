@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace tgiar1d1
 {
-    public partial class Form1 : Form
+    public partial class FrmCurrencyConverter : Form
     {
-        public Form1()
+        public FrmCurrencyConverter()
         {
             InitializeComponent();
         }
