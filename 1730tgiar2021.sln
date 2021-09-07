@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tgiar1730ex1b", "tgiar1730e
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tgiar1c1", "tgiar1c1\tgiar1c1.csproj", "{F163B4DB-04A4-467E-9ECD-5CF2EF7CD7DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tgiar1d1", "tgiar1d1\tgiar1d1.csproj", "{62A5F645-A14F-40F6-9A79-8BCAA0EA5EFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F163B4DB-04A4-467E-9ECD-5CF2EF7CD7DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F163B4DB-04A4-467E-9ECD-5CF2EF7CD7DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F163B4DB-04A4-467E-9ECD-5CF2EF7CD7DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A5F645-A14F-40F6-9A79-8BCAA0EA5EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A5F645-A14F-40F6-9A79-8BCAA0EA5EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A5F645-A14F-40F6-9A79-8BCAA0EA5EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A5F645-A14F-40F6-9A79-8BCAA0EA5EFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
