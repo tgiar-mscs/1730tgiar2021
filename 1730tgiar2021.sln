@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tgiar1d1", "tgiar1d1\tgiar1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tgiar1e1", "tgiar1e1\tgiar1e1.csproj", "{8F6441A8-5F8F-4324-910A-E8937F1542C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tgiar1f1", "tgiar1f\tgiar1f1.csproj", "{3BEE8D30-1522-4B6A-8708-B85AFBC8A9E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8F6441A8-5F8F-4324-910A-E8937F1542C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F6441A8-5F8F-4324-910A-E8937F1542C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F6441A8-5F8F-4324-910A-E8937F1542C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEE8D30-1522-4B6A-8708-B85AFBC8A9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEE8D30-1522-4B6A-8708-B85AFBC8A9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEE8D30-1522-4B6A-8708-B85AFBC8A9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEE8D30-1522-4B6A-8708-B85AFBC8A9E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
