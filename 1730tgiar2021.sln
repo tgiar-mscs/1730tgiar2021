@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tgiar1e1", "tgiar1e1\tgiar1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tgiar1f1", "tgiar1f\tgiar1f1.csproj", "{3BEE8D30-1522-4B6A-8708-B85AFBC8A9E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "variableSamp", "variableSamp\variableSamp.csproj", "{330F83E4-B3FC-4138-BD4A-6484E95B754E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tgiar2a1", "tgiar2a1\tgiar2a1.csproj", "{21DB2287-D2F9-4E4F-ABAC-96BBEEC1B43E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{3BEE8D30-1522-4B6A-8708-B85AFBC8A9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BEE8D30-1522-4B6A-8708-B85AFBC8A9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BEE8D30-1522-4B6A-8708-B85AFBC8A9E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{330F83E4-B3FC-4138-BD4A-6484E95B754E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330F83E4-B3FC-4138-BD4A-6484E95B754E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330F83E4-B3FC-4138-BD4A-6484E95B754E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330F83E4-B3FC-4138-BD4A-6484E95B754E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21DB2287-D2F9-4E4F-ABAC-96BBEEC1B43E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21DB2287-D2F9-4E4F-ABAC-96BBEEC1B43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21DB2287-D2F9-4E4F-ABAC-96BBEEC1B43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21DB2287-D2F9-4E4F-ABAC-96BBEEC1B43E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
