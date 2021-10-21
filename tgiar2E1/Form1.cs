@@ -64,7 +64,7 @@ namespace tgiar2E1
             counter = Convert.ToInt32(input03bTextBox.Text);
             result04TextBox.Text = (
                 //isValid == true & counter++ < years
-                LogicalOperations.q04(isValid, counter, years)
+                LogicalOperations.q04(isValid, years, counter)
                 ).ToString();
             result04bTextBox.Text = counter.ToString();
 
@@ -72,7 +72,7 @@ namespace tgiar2E1
             counter = Convert.ToInt32(input03bTextBox.Text);
             result05TextBox.Text = (
                 //isValid == true || counter++ < years
-                LogicalOperations.q05(isValid, counter, years)
+                LogicalOperations.q05(isValid, years, counter)
                 ).ToString();
             result05bTextBox.Text = counter.ToString();
 
@@ -80,7 +80,7 @@ namespace tgiar2E1
             counter = Convert.ToInt32(input03bTextBox.Text);
             result06TextBox.Text = (
                 //isValid == true | counter++ < years
-                LogicalOperations.q06(isValid, counter, years)
+                LogicalOperations.q06(isValid, years, counter)
                 ).ToString();
             result06bTextBox.Text = counter.ToString();
 
@@ -91,7 +91,7 @@ namespace tgiar2E1
             isValid = Convert.ToBoolean(input07dTextBox.Text);
             result07TextBox.Text = (
                 //date > startDate && date < experationDate || isValid == true
-                LogicalOperations.q07(isValid, date, startDate, experationDate)
+                LogicalOperations.q07(startDate, experationDate, date, isValid)
                 ).ToString();
 
             // #08

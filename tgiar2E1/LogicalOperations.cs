@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace tgiar2E1
 {
-    class LogicalOperations
+    public class LogicalOperations
     {
         public static bool q01(decimal subtotal)
         {
@@ -20,19 +20,19 @@ namespace tgiar2E1
         {
             return isValid == true && counter++ < years;
         }
-        public static bool q04(bool isValid, int counter, int years)
+        public static bool q04(bool isValid, int years, int counter)
         {
             return isValid == true & counter++ < years;
         }
-        public static bool q05(bool isValid, int counter, int years)
+        public static bool q05(bool isValid, int years, int counter)
         {
             return isValid == true || counter++ < years;
         }
-        public static bool q06(bool isValid, int counter, int years)
+        public static bool q06(bool isValid, int years, int counter)
         {
             return isValid == true | counter++ < years;
         }
-        public static bool q07(bool isValid, DateTime date, DateTime startDate, DateTime experationDate)
+        public static bool q07(DateTime startDate, DateTime experationDate, DateTime date, bool isValid)
         {
             return date > startDate && date < experationDate || isValid == true;
         }
