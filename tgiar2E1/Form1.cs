@@ -38,11 +38,15 @@ namespace tgiar2E1
 
             // #01
             decimal subtotal = Convert.ToDecimal(input01aTextBox.Text);
-            result01TextBox.Text = (subtotal >= 250 && subtotal < 500).ToString();
+            //result01TextBox.Text = (subtotal >= 250 && subtotal < 500).ToString();
+            result01TextBox.Text = (LogicalOperations.q01(subtotal)).ToString();
 
             // #02
             int timeInService = Convert.ToInt32(input02aTextBox.Text);
-            result02TextBox.Text = (timeInService <= 4 || timeInService >= 12).ToString();
+            //result02TextBox.Text = (timeInService <= 4 || timeInService >= 12).ToString();
+            result02TextBox.Text = (
+                LogicalOperations.q02(timeInService)
+                ).ToString();
 
             // #03 - 06 initialization
             bool isValid = Convert.ToBoolean(input03aTextBox.Text);
@@ -51,28 +55,32 @@ namespace tgiar2E1
             // #03
             int counter = Convert.ToInt32(input03bTextBox.Text);
             result03TextBox.Text = (
-                isValid == true && counter++ < years
+                //isValid == true && counter++ < years
+                LogicalOperations.q03(isValid, years, counter)
                 ).ToString();
             result03bTextBox.Text = counter.ToString();
 
             // #04
             counter = Convert.ToInt32(input03bTextBox.Text);
             result04TextBox.Text = (
-                isValid == true & counter++ < years
+                //isValid == true & counter++ < years
+                LogicalOperations.q04(isValid, counter, years)
                 ).ToString();
             result04bTextBox.Text = counter.ToString();
 
             // #05
             counter = Convert.ToInt32(input03bTextBox.Text);
             result05TextBox.Text = (
-                isValid == true || counter++ < years
+                //isValid == true || counter++ < years
+                LogicalOperations.q05(isValid, counter, years)
                 ).ToString();
             result05bTextBox.Text = counter.ToString();
 
             // #06
             counter = Convert.ToInt32(input03bTextBox.Text);
             result06TextBox.Text = (
-                isValid == true | counter++ < years
+                //isValid == true | counter++ < years
+                LogicalOperations.q06(isValid, counter, years)
                 ).ToString();
             result06bTextBox.Text = counter.ToString();
 
@@ -82,7 +90,8 @@ namespace tgiar2E1
             DateTime date = Convert.ToDateTime(input07cTextBox.Text);
             isValid = Convert.ToBoolean(input07dTextBox.Text);
             result07TextBox.Text = (
-                date > startDate && date < experationDate || isValid == true
+                //date > startDate && date < experationDate || isValid == true
+                LogicalOperations.q07(isValid, date, startDate, experationDate)
                 ).ToString();
 
             // #08
@@ -92,14 +101,16 @@ namespace tgiar2E1
             int startYear = Convert.ToInt32(input08dTextBox.Text);
             int currentYear = Convert.ToInt32(input08eTextBox.Text);
             result08TextBox.Text = (
-                ((thisYTD > lastYTD) || empType == "Part time") && startYear < currentYear
+                //((thisYTD > lastYTD) || empType == "Part time") && startYear < currentYear
+                LogicalOperations.q08(thisYTD, lastYTD, empType, startYear, currentYear)
                 ).ToString();
 
             // #09
             counter = Convert.ToInt32(input09aTextBox.Text);
             years = Convert.ToInt32(input09bTextBox.Text);
             result09TextBox.Text = (
-                !(counter++ >= years)
+                //!(counter++ >= years)
+                LogicalOperations.q09(counter, years)
                 ).ToString();
             result09bTextBox.Text = counter.ToString();
 
@@ -120,12 +131,13 @@ namespace tgiar2E1
             //    a > b && b < c || c < d
             //    ).ToString();
 
-            bool v = a > b;
-            bool w = b < c;
-            bool x = c < d;
-            bool y = v && w;
-            bool z = y || x;
-            result10TextBox.Text = z.ToString();
+            //bool v = a > b;
+            //bool w = b < c;
+            //bool x = c < d;
+            //bool y = v && w;
+            //bool z = y || x;
+            result10TextBox.Text = (LogicalOperations.q10(a, b, c, d)).ToString();
+           
 
 
         }
