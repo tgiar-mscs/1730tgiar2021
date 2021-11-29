@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tgiar3a1", "tgiar3a1\tgiar3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tgiar3a1UnitTests", "tgiar3a1UnitTests\tgiar3a1UnitTests.csproj", "{BC89E80F-5122-4A84-8673-738BC371B071}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tgiar3b1", "tgiar3b1\tgiar3b1.csproj", "{A6850C38-FB72-475A-B4ED-489A09CB2D73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tgiar3b1UnitTests", "tgiar3b1UnitTests\tgiar3b1UnitTests.csproj", "{B18A75CA-D05C-4911-B52A-D76D40119D83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{BC89E80F-5122-4A84-8673-738BC371B071}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC89E80F-5122-4A84-8673-738BC371B071}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC89E80F-5122-4A84-8673-738BC371B071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6850C38-FB72-475A-B4ED-489A09CB2D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6850C38-FB72-475A-B4ED-489A09CB2D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6850C38-FB72-475A-B4ED-489A09CB2D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6850C38-FB72-475A-B4ED-489A09CB2D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18A75CA-D05C-4911-B52A-D76D40119D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18A75CA-D05C-4911-B52A-D76D40119D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18A75CA-D05C-4911-B52A-D76D40119D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18A75CA-D05C-4911-B52A-D76D40119D83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
